@@ -1,0 +1,228 @@
+/* Reset and base styles  */
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}
+
+body{
+
+    
+}
+
+
+.conteiner{
+    max-width: 800px;
+    height: 100%;
+    margin: 0 auto;
+    
+}
+.element{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_photo{
+    margin: 15px 0px 0px 0px;
+    width: 100px;
+    height: 100px;
+    z-index: 10;
+}
+.img_logo{
+    border-radius: 63px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    z-index: 10;
+}
+.header_name{
+    margin: 15px 0px 0px 0px;
+    font-family: "Roboto";
+    font-weight: 900;
+    font-style: normal;
+    font-size: 30px;
+    color: rgba(141, 133, 133, 0.863);
+    z-index: 10;
+}
+
+.gradient-button {
+    height: 80px;
+    text-decoration: none;
+    display: flex;
+    padding: 10px 30px;
+    margin: 15px 20px;
+    border-radius: 10px;
+    background-color: #9146FF;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+  }
+.gradient-button2{
+    
+    height: 80px;
+    text-decoration: none;
+    display: flex;
+    padding: 10px 30px;
+    margin: 15px 20px;
+    border-radius: 10px;
+    
+    background: linear-gradient(45deg, #980000, #FF0000);
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+.gradient-button3{
+    
+    height: 80px;
+    text-decoration: none;
+    display: flex;
+    padding: 10px 30px;
+    margin: 15px 20px;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #0176CA, #028FF2);
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+.gradient-button4{
+    
+    height: 80px;
+    text-decoration: none;
+    display: flex;
+    padding: 10px 30px;
+    margin: 15px 20px;
+    border-radius: 10px;
+    background-color: #5602dd;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+.gradient-button5{
+    
+    height: 80px;
+    text-decoration: none;
+    display: flex;
+    padding: 10px 30px;
+    margin: 15px 20px;
+    border-radius: 10px;
+    background-color: #db8421;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+.gradient-button6{
+    
+    height: 80px;
+    text-decoration: none;
+    display: flex;
+    padding: 10px 30px;
+    margin: 15px 20px;
+    border-radius: 10px;
+    background-color: #CAE5D4;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+.gradient-button7{
+    height: 80px;
+    text-decoration: none;
+    display: flex;
+    padding: 10px 30px;
+    margin: 15px 20px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #031ee3, #ab00ff);
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+.baground{
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(45deg, #4F5927, #19223D);
+    z-index: -1;
+}
